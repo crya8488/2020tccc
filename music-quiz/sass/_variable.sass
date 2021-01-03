@@ -1,0 +1,132 @@
+$txt: #181818
+$txtgold: #b0895e
+$white: #ffffff
+$red: #d4003b
+$red2: #a90633
+$gold: #c3a583
+$pink: #e7656e
+$lightpink: #e8938d
+$lightpink2: #ec848b
+// $gray: #fafafa
+$gray: #f6f6f6
+$gray2: #eeeeee
+// $gray3: #f3f3f3
+$gray3: #f1f1f1
+
+@-webkit-keyframes fadeIn
+ 0%
+  opacity: 0
+ 100%
+  opacity: 1
+@keyframes fadeIn
+ 0%
+  opacity: 0
+ 100%
+  opacity: 1
+
+
+@-webkit-keyframes slideIn
+ 0%
+  -webkit-transform: translateY(50px)
+  opacity: 0
+ 100%
+  -webkit-transform: translateY(0)
+  opacity: 1
+@keyframes slideIn
+ 0%
+  -webkit-transform: translateY(50px)
+  opacity: 0
+ 100%
+  -webkit-transform: translateY(0)
+  opacity: 1
+
+@-webkit-keyframes marginIn
+ 0%
+  margin: -50px 0 0 0
+  opacity: 0
+ 100%
+  margin: 0
+  opacity: 1
+@keyframes marginIn
+ 0%
+  margin: -50px 0 0 0
+  opacity: 0
+ 100%
+  margin: 0
+  opacity: 1
+
+@-webkit-keyframes pulse
+ 0%  
+  -webkit-opacity: 0
+  -webkit-transform: scale(0)
+ 25%  
+  -webkit-opacity: 0.1
+  -webkit-transform: scale(0)
+ 50%  
+  -webkit-opacity: 0.3
+  -webkit-transform: scale(0.1)
+ 75%  
+  -webkit-opacity: 0.5
+  -webkit-transform: scale(0.5)
+ 100%  
+  -webkit-opacity: 0
+  -webkit-transform: scale(1)
+@keyframes pulse
+ 0%  
+  opacity: 0
+  transform: scale(0)
+ 25%  
+  opacity: 0.1
+  transform: scale(0)
+ 50%  
+  opacity: 0.3
+  transform: scale(0.1)
+ 75%  
+  opacity: 0.5
+  transform: scale(0.5)
+ 100%  
+  opacity: 0
+  transform: scale(1)
+
+@keyframes flash
+	0% 
+		opacity: .2
+  border-radius: 25%
+  transform: translate(-50%, -50%) rotate(45deg) scale(0.1)
+ 25% 
+		opacity: .8
+  border-radius: 50%
+  transform: translate(-50%, -50%) rotate(90deg)	scale(0.3)
+	50% 
+		opacity: 1
+  border-radius: 100%
+  transform: translate(-50%, -50%) rotate(0deg)
+ 75% scale(1)
+		opacity: .8
+  border-radius: 50%
+  transform: translate(-50%, -50%) rotate(90deg)	scale(0.3)	
+	100% 
+		opacity: .2
+  border-radius: 25%
+  transform: translate(-50%, -50%) rotate(45deg)	scale(0.1)
+@-webkit-keyframes flash
+	0% 
+		-webkit-opacity: .2
+  -webkit-border-radius: 25%
+  -webkit-transform: translate(-50%, -50%) rotate(45deg)	scale(0.1)	
+ 25% 
+		-webkit-opacity: .8	
+  -webkit-border-radius: 50%
+  -webkit-transform: translate(-50%, -50%) rotate(90deg)	scale(0.3)	
+	50% 
+		-webkit-opacity: 1
+  -webkit-border-radius: 100%
+  -webkit-transform: translate(-50%, -50%) rotate(0deg)	scale(1)
+ 75% 
+		-webkit-opacity: .8
+  -webkit-border-radius: 50%
+  -webkit-transform: translate(-50%, -50%) rotate(90deg)	scale(0.3)	
+	100% 
+		-webkit-opacity: .2
+  -webkit-border-radius: 25%
+  -webkit-transform: translate(-50%, -50%) rotate(45deg)	scale(0.1)

@@ -1,0 +1,165 @@
+.index-wrap
+ text-align: center
+ h1
+  padding: 20px
+  background: $gray
+ .q-box
+  display: inline-flex
+  align-items: stretch
+  justify-content: center
+  flex-wrap: wrap
+  margin: 30px auto
+  > li
+   display: inline-block
+   width: 22%
+   margin: 1%
+   // padding: 10px
+   position: relative
+   display: inline-flex
+   align-items: stretch
+   > a
+    display: block
+    +border-radius(15px)
+    background: $gray2
+    pointer-events: none
+    width: 100%
+    padding: 80px 20px
+    font-weight: bold
+    font-size: 30px
+    display: flex
+    align-items: center
+    justify-content: center
+    &:nth-child(1)
+     background: 
+   &:hover
+    > a
+     color: $gray2
+     // background: $white
+    > ul
+     opacity: 1
+     max-height: 150%
+     z-index: 2
+     opacity: 1
+     // padding: 10px 0
+   > ul
+    position: absolute
+    // width: calc(100% - 40px)
+    width: 100%
+    max-height: 0
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    overflow: hidden
+    background: $gray2
+    // box-shadow: 0 0 5px $gray2
+    +border-radius(15px)
+    transition: .5s
+    padding: 10px
+    opacity: 0
+    > li
+     display: inline-block
+     margin: 5px
+     > a
+      display: block
+      padding: 10px 20px
+      +border-radius(15px)
+      background: $red
+      color: #FFF
+      font-weight: bold
+      &:hover
+       background: $pink
+      &:visited
+       background: $gray
+       color: #999
+
+
+.inner-wrap
+ text-align: center
+ h1
+  padding: 20px 20px 0 20px
+  background: $gray
+ p
+  background: $gray
+  padding-bottom: 20px
+ h2
+  color: $red
+  margin: 20px
+ .music
+  width: 100%
+  max-width: 1200px
+  padding: 0 30px
+  margin: 0 auto
+  &.local
+   max-width: calc(100% - 60px)
+   padding: 250px 30px
+   background: #ddd
+   +border-radius(30px)
+ #ans-btn
+  display: block
+  padding: 20px
+  +border-radius(50px)
+  background: $red
+  color: $white
+  width: 500px
+  margin: 30px auto
+  font-weight: bold
+  max-width: 100%
+  img
+   display: inline
+   width: 20px
+   margin-left: 10px
+   +transition
+  &.active
+   background: #bbb
+   img
+    transform: rotate(180deg)
+
+ #ans-box
+  opacity: 0
+  max-height: 0
+  overflow: hidden
+  background: $gray
+  padding: 0 30px
+  &.active
+   opacity: 1
+   max-height: 1000px
+   padding: 30px
+  h2
+   margin-bottom: 20px
+ #back
+  display: block
+  padding: 20px
+  +border-radius(50px)
+  background: $gray
+  color: #666
+  width: 500px
+  margin: 0 auto 30px auto
+  font-weight: bold
+  max-width: 100%
+  &.active
+   background: $red
+   color: $white
+   margin: 30px auto
+
+#g-footer
+ p
+  font-size: 12px
+  text-align: center
+  padding: 20px
+  color: #666
+
+.video-box
+  position: relative
+  width: 100%
+  max-width: 1200px
+  padding: 30px
+  height: 0
+  padding-bottom: 56%
+  overflow: hidden
+  iframe,video
+   position: absolute
+   top: 0
+   left: 0
+   width: 100%
+   height: 100%
+  video

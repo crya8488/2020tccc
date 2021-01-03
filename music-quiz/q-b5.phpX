@@ -1,0 +1,34 @@
+<?php
+ $classTitle = '放眼世界 征服宇宙';
+ $classTag = '宇宙 / 機甲';
+ $number = '５';
+ $music = 'https://drive.google.com/file/d/1woc3dtXJ-p3KWezubvJ9L9u6UzfCsBer/preview';
+ $ansTitle = '電波女&青春男 OP1 ( 2011 )';
+ $ansVideo = '';
+ $ansVideoS = '';
+ $ansImg = '';
+ $ansDescript = '';
+ $musicLocal = 'b5';//本機音樂檔案
+ $ansVideoLocal = '';//本機影片檔案
+?>
+<!doctype html>
+<html lang="zh-Hant-TW">
+
+<head>
+	<?php include("includes/g-meta.php") ?>
+ <?php include("main.php") ?>
+ 
+ <!-- 不放影片 -->
+ <style>
+  .video-box{display:none} 
+ </style>
+ <!-- 不放影片 -->
+</head>
+
+<body>	
+ <?php include("includes/g-inner.php") ?>
+ <script type="application/javascript" src="https://embed.nicovideo.jp/watch/sm26467536/script?w=720&h=480&from=46"></script><noscript><a href="https://www.nicovideo.jp/watch/sm26467536?from=46">【フルHD】 電波女と青春男 OP 【120fps】</a></noscript>
+ <?php include("includes/g-footer.php") ?>
+</body>
+
+</html>

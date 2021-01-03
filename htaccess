@@ -1,0 +1,14 @@
+Options -Indexes
+ErrorDocument 400 http://wan-jin.me/2020tccc/
+ErrorDocument 401 http://wan-jin.me/2020tccc/
+ErrorDocument 402 http://wan-jin.me/2020tccc/
+ErrorDocument 403 http://wan-jin.me/2020tccc/
+ErrorDocument 404 http://wan-jin.me/2020tccc/
+ErrorDocument 405 http://wan-jin.me/2020tccc/
+ErrorDocument 406 http://wan-jin.me/2020tccc/
+ErrorDocument 407 hhttp://wan-jin.me/2020tccc/
+ErrorDocument 408 http://wan-jin.me/2020tccc/
+ErrorDocument 409 http://wan-jin.me/2020tccc/
+ErrorDocument 410 http://wan-jin.me/2020tccc/
+ErrorDocument 411 http://wan-jin.me/2020tccc/
+ErrorDocument 503 http://wan-jin.me/2020tccc/

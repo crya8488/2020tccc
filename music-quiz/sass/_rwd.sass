@@ -1,0 +1,59 @@
+@media screen and (max-width: 1024px) 
+ h1,h2
+  font-size: 30px
+ .index-wrap
+  .q-box
+   > li
+    > a
+     font-size: 24px
+    > ul
+     > li
+      margin: 5px 0
+      > a
+       padding: 10px 15px
+
+@media screen and (max-width: 768px) 
+ .index-wrap
+  .q-box
+   > li
+    width: 48%
+    > a
+     font-size: 24px
+     padding: 40px 10px
+ .inner-wrap .music
+   padding: 0
+   iframe
+    height: 300px!important
+ .inner-wrap .music.local
+  padding: 150px 0
+  max-width: 100%
+  +border-radius(0)
+  
+
+@media screen and (max-width: 560px) 
+ .inner-wrap 
+  #back,#ans-btn
+   width: 80%
+@media screen and (max-width: 500px) 
+ h1,h2
+  font-size: 24px
+ .index-wrap
+  .q-box
+   > li
+    width: 48%
+    > a
+     font-size: 20px
+    > ul
+     > li
+      width: 80%
+      > a
+       font-size: 18px
+    &:hover
+     > ul
+      max-height: 150vh
+ .inner-wrap #ans-box
+  padding: 0
+  &.active
+   padding: 20px 0
+ .inner-wrap .music.local
+  padding: 100px 0

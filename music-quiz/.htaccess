@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^wanjin\.me$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.wanjin\.me$
+RewriteRule ^/?$ "http\:\/\/wan\-jin\.me\/" [R=301,L]
+
